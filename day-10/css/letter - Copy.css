@@ -1,0 +1,249 @@
+.box-a1 {
+    height: 150px;
+    width: 15px;
+    background-color: green;
+    margin: 20px 0px 0px 40px;
+    float: left;
+    transform: skew(-25deg);
+}
+.box-a2 {
+    height: 150px;
+    width: 15px;
+    background-color: green;
+    float: left;
+    margin: 20px 0px 0px 55px;
+    transform: skew(25deg);
+}
+.box-a3 {
+    height: 15px;
+    width: 80px;
+    background-color: green;
+    margin-top: 100px;
+    margin-left: -80px;
+    margin-right: 100px;
+    float: left;
+}
+
+.box-b1 {
+    height: 55px;
+    width: 50px;
+    border: 15px solid green;
+    margin: 18px 0px 0px -50px;
+    border-radius: 0px 40px 40px 0px;
+    float: left;
+}
+.box-b2 {
+    height: 55px;
+    width: 50px;
+    border: 15px solid green;
+    margin: 88px 0px 0px -80px;
+    border-radius: 0px 40px 40px 0px;
+    float: left;
+}
+
+.box-c {
+    height: 125px;
+    width: 65px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 20px;
+    border-radius: 65px 0px 0px 65px;
+    border-right: none;
+    float: left;
+}
+
+.box-d {
+    height: 125px;
+    width: 65px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 20px;
+    border-radius: 0px 65px 65px 0px;
+    float: left;
+}
+
+.box-e1 {
+    height: 55px;
+    width: 55px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 20px;
+    float: left;
+    border-right: none;
+}
+.box-e2 {
+    height: 55px;
+    width: 55px;
+    border: 15px solid green;
+    margin: 88px 0px 0px -70px;
+    float: left;
+    border-right: none;
+}
+
+.box-f1 {
+    height: 55px;
+    width: 55px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 20px;
+    float: left;
+    border-right: none;
+}
+.box-f2 {
+    height: 70px;
+    width: 55px;
+    border: 15px solid green;
+    margin: 88px 0px 0px -70px;
+    float: left;
+    border-right: none;
+    border-bottom: none;
+}
+
+.box-g1 {
+    height: 125px;
+    width: 65px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 20px;
+    border-radius: 65px 0px 0px 65px;
+    border-right: none;
+    float: left
+}
+.box-g2 {
+    height: 55px;
+    width: 20px;
+    border: 15px solid green;
+    margin: 103px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    float: left;
+    border-bottom: none;
+}
+
+.box-h1 {
+    height: 155px;
+    width: 15px;
+    background-color: green;
+    margin: 18px 0px 0px 20px;
+    float: left;
+}
+.box-h2 {
+    height: 155px;
+    width: 15px;
+    background-color: green;
+    margin: 18px 0px 0px 60px;
+    float: left;
+}
+.box-h3 {
+    height: 15px;
+    width: 80px;
+    background-color: green;
+    margin: 90px 0px 0px -80px;
+    float: left;
+}
+
+.box-i {
+    height: 155px;
+    width: 15px;
+    background-color: green;
+    margin: 18px 0px 0px 20px;
+    float: left;
+}
+
+.box-j1 {
+    height: 140px;
+    width: 50px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 20px;
+    border-radius: 0px 0px 30px 40px;
+    border-left: none;
+    border-top: none;
+    float: left;
+}
+.box-j2 {
+    height: 35px;
+    width: 35px;
+    border: 15px solid green;
+    margin: 123px 0px 0px -65px;
+    border-top: none;
+    border-radius: 0px 0px 30px 30px;
+    float: left;
+}
+
+.box-k1 {
+    height: 155px;
+    width: 15px;
+    background-color: green;
+    margin: 18px 0px 0px 20px;
+    float: left;
+}
+.box-k2 {
+    height: 100px;
+    width: 15px;
+    background-color: green;
+    margin: 12px 0px 0px 22px;
+    float: left;
+    transform: rotate(40deg);
+}
+.box-k3 {
+    height: 100px;
+    width: 15px;
+    background-color: green;
+    margin: 80px 0px 0px -18px;
+    float: left;
+    transform: rotate(-40deg);
+}
+
+.box-l {
+    height: 140px;
+    width: 70px;
+    border: 15px solid green;
+    margin: 18px 0px 0px 70px;
+    border-right: none;
+    border-top: none;
+    float: left;
+}
+
+.box-m1 {
+    height: 155px;
+    width: 15px;
+    background-color: green;
+    margin: 20px 0px 0px 50px;
+    float: left;
+}
+.box-m2 {
+    height: 155px;
+    width: 15px;
+    background-color: green;
+    margin: 20px 0px 0px 90px;
+    float: left;
+}
+.box-m3 {
+    height: 82px;
+    width: 15px;
+    background-color: green;
+    margin: 15px 0px 0px -45px;
+    float: left;
+    transform: rotate(45deg);
+}
+.box-m4 {
+    height: 82px;
+    width: 15px;
+    background-color: green;
+    margin: 15px 0px 0px -92px;
+    float: left;
+    transform: rotate(-45deg);
+}
+
+.box-s1 {
+    height: 55px;
+    width: 55px;
+    border: 15px solid green;
+    margin: 20px 0px 0px 30px;
+    border-radius: 30px 30px 0px 10px;
+    border-right: none;
+    float: left;
+}
+.box-s2 {
+    height: 55px;
+    width: 55px;
+    border: 15px solid green;
+    margin: 90px 0px 0px -70px;
+    border-radius: 0px 10px 30px 30px;
+    border-left: none;
+    float: left;
+}

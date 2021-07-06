@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Pr-Event</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" placeholder="First Name" id="firstName"/></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" placeholder="Last Name" id="lastName" /></td>
+            </tr>
+            <tr>
+                <th>Full Name</th>
+                <td><input type="text" placeholder="Full Name" id="fullName"/></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input type="button" id="btn" value="Submit"/></td>
+            </tr>
+        </table>
+
+    </body>
+
+        <script>
+
+            var btnElement = document.getElementById('btn');
+            btnElement.onclick = function () {
+                var firstName = document.getElementById('firstName').value;
+                var lastName = document.getElementById('lastName').value;
+
+                makeFullName(firstName, lastName);
+            }
+
+            function makeFullName(firstName, lastName) {
+                var fullName = firstName+' '+lastName;
+                document.getElementById('fullName').value = fullName;
+                //document.write(fullName);
+            }
+            //makeFullName('tipu', 'sultan');
+
+
+
+
+
+        </script>
+</html>

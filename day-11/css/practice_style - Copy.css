@@ -1,0 +1,142 @@
+*{ box-sizing: border-box; }
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[class*='col-'] {
+    float: left;
+    border: 1px solid gray;
+}
+
+.row:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container {
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.header-height { height: 200px; }
+.menu-height { height: 50px; }
+.content-height { height: 650px; }
+.footer-height { height: 50px; }
+
+.main-ul1 {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+}
+
+.main-li1 {
+    float: left;
+    width: 20%;
+}
+
+.main-li1 a {
+    text-decoration: none;
+    border: 1px solid gray;
+    height: 48px;
+    text-align: center;
+    padding-top: 13px;
+    display: block;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.main-li1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.second-ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.second-li {
+    display: none;
+}
+.main-li1:hover .second-li  {
+    display: block;
+}
+
+.div-one {
+    width: 300px;
+    margin: 10px;
+    border-left: 5px solid green;
+    padding: 5px;
+    float: left;
+}
+.div-one:hover {
+    box-shadow: 0px 0px 10px 3px;
+}
+
+.para-one {
+    text-align: justify;
+    margin-top: 5px;
+}
+.img-one {
+    height: 100px;
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.btn-one {
+    text-decoration: none;
+    height: 40px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    float: right;
+}
+h2 {
+    text-align: center;
+    text-shadow: 5px 5px 20px gray;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/*for this property this image cannot be copied*/
+.box-one {
+    height: 300px;
+    width: 300px;
+    float: left;
+    border: 1px solid red;
+    margin: 10px;
+    background-image: url("../images/3.jpg");
+    background-size: 100% 100%;
+}
+
+.box-two {
+    height: 300px;
+    width: 600px;
+    border: 1px solid red;
+    float: left;
+}
+.img-two {
+    height: 100%;
+    width: 100%;
+    float: left;
+}

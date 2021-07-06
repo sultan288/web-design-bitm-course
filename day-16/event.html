@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Event</title>
+    </head>
+    <body>
+          <table>
+              <tr>
+                  <th>First Name</th>
+                  <td><input type="text" placeholder="Enter First Name" id="firstName"/> </td>
+              </tr>
+              <tr>
+                  <th>Last Name</th>
+                  <td><input type="text" value="Sultan" id="lastName"/></td>
+              </tr>
+              <tr>
+                  <th>Full Name</th>
+                  <td><input type="text" id="fullName"/></td>
+              </tr>
+              <tr >
+                  <th></th>
+                  <td><input type="button" onclick="makeFullName()" id="btn" value="submit"/></td>
+              </tr>
+          </table>
+
+          <script>
+
+              var btnElement = document.getElementById('btn');
+               btnElement.onclick = function () {           //ananymous function
+                      var firstName = document.getElementById('firstName').value;
+                      var lastName = document.getElementById('lastName').value;
+
+                       makeFullName(firstName, lastName);
+               }
+
+               //another way for event
+               // addEventListener()
+               // attachEvent()
+
+              function makeFullName(firstName, lastName) {
+                  var fullName = firstName+' '+lastName;
+                  document.getElementById('fullName').value = fullName;
+
+                  //document.write(fullName);
+              }
+              //makeFullName();
+
+
+
+          </script>
+
+    </body>
+</html>

@@ -1,0 +1,198 @@
+.moon {
+    height: 80px;
+    width: 80px;
+    margin: 40px;
+    border-radius: 40px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    border-top: none;
+    float: left;
+    transform: rotate(0deg) scale(1);
+    animation-duration: 3s;
+}
+.moon:hover {
+    transform: rotate(30deg) scale(1.5);
+}
+
+.sun {
+    height: 80px;
+    width: 80px;
+    margin: -120px 0px 0px 1150px;
+    border-radius: 40px;
+    background-color: lightyellow;
+    float: left;
+    transform: scale(1);
+}
+.sun:hover {
+    transform: scale(1.5);
+}
+
+.box-circle {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 250px;
+    top: 80px;
+    float: left;
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+}
+.box-circle:hover {
+    transform: rotate(360deg) scale(2);
+}
+
+.rainbow {
+    background: linear-gradient(to right, blueviolet, blue, deepskyblue, green, yellow, orange, red);
+    height: 100px;
+    width: 550px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+@keyframes star1 {
+    from { background-color: white; }
+    to { background-color: black; }
+}
+.star1 {
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    float: left;
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    animation-name: star1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes demo {
+    from { background-color: red; }
+    to { background-color: blue; }
+}
+.box-demo {
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes demo2 {
+    0% { background-color: red; left: 120px;}
+    20% { background-color: blue; left: 220px;}
+    40% { background-color: deeppink; left: 320px;}
+    60% { background-color: deepskyblue; left: 420px;}
+    80% { background-color: green; left: 520px; }
+    100% { background-color: blueviolet; left: 620px; }
+}
+.box-demo2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 120px;
+    bottom: 20px;
+    animation-name: demo2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes demo3 {
+    0% { background-color: black; left: 120px;}
+    20% { background-color: blue; left: 220px;}
+    40% { background-color: deeppink; left: 320px;}
+    60% { background-color: deepskyblue; left: 420px;}
+    80% { background-color: green; left: 520px; }
+    100% { background-color: blueviolet; left: 620px; }
+}
+.box-demo3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 125px;
+    animation-name: demo3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo4 {
+    0% { background-color: black; left: 120px;}
+    20% { background-color: black; left: 220px;}
+    40% { background-color: deeppink; left: 320px;}
+    60% { background-color: deepskyblue; left: 420px;}
+    80% { background-color: green; left: 520px; }
+    100% { background-color: blueviolet; left: 620px; }
+}
+.box-demo4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 230px;
+    animation-name: demo4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo5 {
+    0% { background-color: black; left: 120px;}
+    20% { background-color: black; left: 220px;}
+    40% { background-color: black; left: 320px;}
+    60% { background-color: deepskyblue; left: 420px;}
+    80% { background-color: green; left: 520px; }
+    100% { background-color: blueviolet; left: 620px; }
+}
+.box-demo5 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 335px;
+    animation-name: demo5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo6 {
+    0% { background-color: black; left: 120px;}
+    20% { background-color: black; left: 220px;}
+    40% { background-color: black; left: 320px;}
+    60% { background-color: black; left: 420px;}
+    80% { background-color: green; left: 520px; }
+    100% { background-color: blueviolet; left: 620px; }
+}
+.box-demo6 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 440px;
+    animation-name: demo6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo7 {
+    0% { background-color: black; left: 120px;}
+    20% { background-color: black; left: 220px;}
+    40% { background-color: black; left: 320px;}
+    60% { background-color: black; left: 420px;}
+    80% { background-color: black; left: 520px; }
+    100% { background-color: blueviolet; left: 620px; }
+}
+.box-demo7 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 545px;
+    animation-name: demo7;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

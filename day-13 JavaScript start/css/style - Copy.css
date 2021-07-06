@@ -1,0 +1,18 @@
+@font-face {
+    font-family: bitm;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: bitm2;
+    src: url("../fonts/Open_Sans/OpenSans-Italic.ttf");
+}
+@font-face {
+    font-family: bitm3;
+    src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
+p {
+    font-size: 40px;
+    color: red;
+    font-family: bitm2;
+}

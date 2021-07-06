@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>IndexVue</title>
+    </head>
+    <body>
+
+      <div id="app">
+          <input type="text" v-model="xyz">
+          <h1>{{ xyz }}</h1>
+
+
+        <h1>{{ msg }}</h1>
+        <button type="button" @click="test">Click Here</button>
+
+        <table>
+          <tr>
+            <th>First Name</th>
+            <td><input type="text" v-model="firstName"/></td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td><input type="text" v-model="lastName"></td>
+          </tr>
+          <tr>
+            <th>Full Name</th>
+            <td><input type="text" v-model="fullName"></td>
+          </tr>
+          <tr>
+            <th></th>
+            <td><input type="button" @click="makeFullName" value="Full Name"></td>
+          </tr>
+        </table>
+
+
+      </div>
+
+
+    <script src="js/vue.js"></script>
+    <script>
+        let vm = new Vue({
+          el   : '#app',
+          data : {
+                msg       : "Hello World",
+                name      : 'Tipu',
+                firstName : " ",
+                lastName  : " ",
+                fullName  : ' ',
+                    xyz   : 'tanvir'
+          },
+
+          methods : {
+           test: function () {
+             alert("Hello From Vue Function");
+           },
+
+              makeFullName : function () {
+                 this.fullName = this.firstName+' '+this.lastName;
+              }
+
+          }
+
+        })
+
+
+    </script>
+    </body>
+</html>

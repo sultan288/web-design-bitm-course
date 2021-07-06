@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>javaS16</title>
+    </head>
+    <body>
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Email Address</th>
+                <th>Salary</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Moshiur</td>
+                <td>Rahman</td>
+                <td>01949212011</td>
+                <td>mosiur@gmail.com</td>
+                <td>45000</td>
+                <td>Mirpur-10</td>
+            </tr>
+        </table>
+          <script>
+                // var data = [10, 20, 30, 'tipu', 'sultan'];
+                // for(var i in data) {
+                //     document.write(data[i]+'<br/>');
+                // }
+
+                //JSON Array
+                var data = [
+                    {
+                        'first_name'   : 'Mosiur',
+                        'last_name'    : 'Rahman',
+                        'phone_number' : '01949212011',
+                        'email_address': 'mosiur@gmail.com',
+                    },
+                    {
+                        'first_name'   : 'Robin',
+                        'last_name'    : 'KHan',
+                        'phone_number' : '01747212011',
+                        'email_address': 'robin@gmail.com',
+                    },
+                ];
+
+                function demo(x, y) {
+                    var z = x+y;
+                    //document.write(z);
+                    return z;
+                }
+                document.write('<br/>=================<br/>');
+                document.write(demo(12, 12));
+                document.write('<br/>=================<br/>');
+                var res = demo(12, 13);
+                document.write(res);     //demo(12, 13);
+                document.write('<br/>=================<br/>');
+                demo(12, 14);
+
+
+
+
+          </script>
+
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pr-JS</title>
+    </head>
+    <body>
+        <table border="2" style="border-collapse: collapse">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>Email Address</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <th>Tipu</th>
+                <th>Sultan</th>
+                <th>01949212011</th>
+                <th>sultan.ist28@gmail.com</th>
+                <th>Jashore</th>
+            </tr>
+        </table>
+
+    </body>
+        <script>
+
+            var data = [10, 20, 30, 'Tipu', 'Sultan'];
+            document.write('data length'+' ',data.length);
+            document.write('<br/>');
+            for(var d in data) {
+                document.write(data[d]+'<br/>');
+            }
+            var file = [40, 50, 60, 70, 80, 90, 'Tanvir', 'Sultan'];
+            document.write(file.length);
+            document.write('<br/>');
+            for(var m in file) {
+                document.write(file[m]+'<br/>');
+            }
+            document.write(file.length);
+
+            //JSON Array
+
+            var data = [
+                {
+                  'first_name'  : 'Tipu',
+                  'last_name'   : 'Sultan',
+                  'phone_number': '01949212011',
+                  'email_address': 'sultan@gmail.com',
+                },
+                {
+                    'first_name'  : 'Tipu',
+                    'last_name'   : 'Sultan',
+                    'phone_number': '01949212011',
+                    'email_address': 'sultan@gmail.com',
+                },
+            ];
+
+            function demo(x, y) {
+                var z = x + y;
+                return z;
+                //document.write(z);
+            }
+            document.write('<br/>')
+            demo(12, 13);
+
+            document.write('<br/>')
+            document.write(demo(12, 15));
+
+            document.write('<br/>')
+            var good = demo(12, 18);
+            document.write(good);
+
+
+
+
+
+        </script>
+
+
+</html>

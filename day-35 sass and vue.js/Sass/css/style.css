@@ -1,0 +1,25 @@
+h1 {
+  background-color: red; }
+
+.div-one {
+  height: 200px;
+  width: 300px;
+  background-color: darkgreen;
+  float: left;
+  margin-right: 10px; }
+
+.div-two {
+  height: 200px;
+  width: 400px;
+  background-color: darkgreen;
+  float: left;
+  margin-right: 10px; }
+
+.div-three {
+  height: 200px;
+  width: 500px;
+  background-color: darkgreen;
+  float: left;
+  margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */

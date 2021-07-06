@@ -1,0 +1,26 @@
+$bgColor: darkgreen;
+
+h1{ background-color: red}
+
+.div-one{
+	height: 200px;
+	width: 300px;
+	background-color: $bgColor;
+	float: left;
+	margin-right: 10px;
+}
+.div-two{
+	height: 200px;
+	width: 400px;
+	background-color: $bgColor;
+	float: left;
+	margin-right: 10px;
+}
+.div-three{
+	height: 200px;
+	width: 500px;
+	background-color: $bgColor;
+	float: left;
+	margin-right: 10px;
+}	
+	

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>pr_Bootstrap28</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+    <br/>
+        <div class="container">
+            <div>
+            <span class="badge bg-success">Dark</span>
+            <span class="badge bg-warning text-dark">Warning</span>
+            <span class="badge bg-primary text-white rounded-pill">Primary</span>
+            </div>
+
+            <div>
+                <button type="button" class="btn btn-success">Message
+                    <span class="badge bg-danger rounded-pill">15</span>
+                </button>
+            </div>
+
+            <div>
+                <h1>This is a Heading. <span class="badge bg-primary">New</span></h1>
+                <h5>Notifications<sup><span class="badge bg-danger rounded-pill">9+</span></sup></h5>
+            </div>
+        </div>
+        <br/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 border-0">
+                 <div id="accordionCard" class="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#cardOne" data-bs-toggle="collapse">Accordion-Anchor-card</a>
+                    </div>
+                    <div id="cardOne" class="collapse" data-bs-parent="#accordionCard">
+                         <div class="card-body">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio, illo laudantium magnam ratione temporibus velit vitae voluptates! Blanditiis, delectus deserunt distinctio eos itaque minus molestias nesciunt quas quia sunt?</p>
+                         </div>
+                         <div class="card-footer">
+                             <p>This is card footer</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button type="button" data-bs-target="#cardTwo" data-bs-toggle="collapse">Accordion-Button-card</button>
+                    </div>
+                    <div id="cardTwo" class="collapse" data-bs-parent="#accordionCard">
+                      <div class="card-body">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, eligendi esse explicabo nam non optio tenetur. Cum dolorem fuga, odio quod quos reprehenderit rerum! Blanditiis debitis et id quasi voluptas.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is a card footer</p>
+                     </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span data-bs-target="#card3" data-bs-toggle="collapse">Accordion-span-card</span>
+                    </div>
+                    <div id="card3" class="collapse" data-bs-parent="#accordionCard">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias culpa distinctio dolores eius eum excepturi inventore ipsa magni maiores mollitia nulla officiis, quibusdam quos rerum saepe sed ut vel.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>This is card footer</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+            <div class="col-md-2 border-0">
+                 <div id="menuAccordianCard" class="accordion">
+                  <div class="card">
+                      <div class="card-header">
+                          <a href="#card4" data-bs-toggle="collapse">SidebarMenu1</a>
+                      </div>
+                      <div id="card4" class="collapse" data-bs-parent="#menuAccordianCard">
+                          <div class="card-body">
+                              <ul class="list-group list-group-flush">
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                         <div class="card-header">
+                             <a href="#card5" data-bs-toggle="collapse">SidebarMenu1</a>
+                         </div>
+                         <div id="card5" class="collapse" data-bs-parent="#menuAccordianCard">
+                             <div class="card-body">
+                                 <ul class="list-group list-group-flush">
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                  <div class="card">
+                         <div class="card-header">
+                             <a href="#card6" data-bs-toggle="collapse">SidebarMenu1</a>
+                         </div>
+                         <div id="card6" class="collapse" data-bs-parent="#menuAccordianCard">
+                             <div class="card-body">
+                                 <ul class="list-group list-group-flush">
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                     <li class="list-group-item"><a href="">Link One</a></li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+
+        <button type="button" data-bs-target="#firstModal" data-bs-toggle="modal" class="btn btn-success">Click me for modal</button>
+
+        <div id="firstModal" class="modal fade">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>This is modal header</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card-body">
+                            <p>This is card body</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi dicta, doloremque ea est et expedita illum nostrum officiis praesentium quia quo ullam unde voluptate, voluptates! Accusamus adipisci aliquid minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi dicta, doloremque ea est et expedita illum nostrum officiis praesentium quia quo ullam unde voluptate, voluptates! Accusamus adipisci aliquid minus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi dicta, doloremque ea est et expedita illum nostrum officiis praesentium quia quo ullam unde voluptate, voluptates! Accusamus adipisci aliquid minus.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <h6>This is modal footer</h6>
+                        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>

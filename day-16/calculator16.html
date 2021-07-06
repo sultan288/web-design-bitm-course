@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator16</title>
+    </head>
+    <body>
+    <table>
+      <tr>
+        <th>First Number</th>
+        <td><input type="number" id="firstNumber"/></td>
+      </tr>
+      <tr>
+        <th>Second Number</th>
+        <td><input type="number" id="secNumber"></td>
+      </tr>
+      <tr>
+          <th>Result</th>
+          <td><input type="number" id="result"></td>
+      </tr>
+      <tr>
+        <td><input type="button" id="addb" value="Addition"/></td>
+        <td><input type="button" id="mulb" value="Multiplication"/></td>
+        <td><input type="button" id="remb" value="Remainder"/></td>
+      <tr/>
+      <tr>
+        <td><input type="button" id="subb" value="Subtraction"/></td>
+        <td><input type="button" id="divb" value="Division"/></td>
+      </tr>
+
+    </table>
+
+
+    <script>
+
+          var addElement = document.getElementById('addb');
+          addElement.onclick = function () {
+              var num1 = Number(document.getElementById('firstNumber').value);
+              var num2 = Number(document.getElementById('secNumber').value);
+
+              addition(num1, num2);
+          }
+
+          var subElement = document.getElementById('subb');
+          subElement.onclick = function () {
+                var num1 = (document.getElementById('firstNumber').value);
+                var num2 = (document.getElementById('secNumber').value);
+
+                subtraction(num1, num2);
+          }
+
+          var mulElement = document.getElementById('mulb');
+          mulElement.onclick = function () {
+              var num1 = (document.getElementById('firstNumber').value);
+              var num2 = (document.getElementById('secNumber').value);
+
+              multiplication(num1, num2);
+          }
+
+          var divElement = document.getElementById('divb');
+          divElement.onclick = function () {
+              var num1 = (document.getElementById('firstNumber').value);
+              var num2 = (document.getElementById('secNumber').value);
+
+              division(num1, num2);
+          }
+
+          var remElement = document.getElementById('remb');
+          remElement.onclick = function () {
+              var num1 = (document.getElementById('firstNumber').value);
+              var num2 = (document.getElementById('secNumber').value);
+
+              remainder(num1, num2);
+          }
+
+
+           function addition(num1, num2) {
+                 var result = num1 + num2;
+                 document.getElementById('result').value = result;
+           }
+
+           function subtraction(num1, num2) {
+             var result = num1-num2;
+             document.getElementById('result').value = result;
+           }
+
+           function multiplication(num1, num2) {
+             var result = num1*num2;
+             document.getElementById('result').value =result;
+           }
+
+           function division(num1, num2) {
+             var result = num1/num2;
+             document.getElementById('result').value =result;
+           }
+
+           function remainder(num1, num2) {
+               var result = num1%num2;
+             document.getElementById('result').value = result;
+           }
+
+
+    </script>
+    </body>
+</html>

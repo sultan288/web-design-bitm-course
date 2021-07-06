@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <title>Bootstrap card-28</title>
+      <link rel="stylesheet" href="css/bootstrap.css"/>
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <br/>
+
+        <a href="">Anchor tag</a>
+<br/>
+        <a href="">Edited Anchor Tag</a>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 border-0">
+
+                    <button type="button" data-bs-target="#myModal" data-bs-toggle="modal" class="btn btn-success">Click here</button>
+
+                </div>
+            </div>
+        </div>
+        <br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <span class="badge bg-info">Info</span>
+                    <span class="badge bg-primary">Primary</span>
+                    <span class="badge bg-secondary">Secondary</span>
+                    <span class="badge bg-success">Success</span>
+                    <span class="badge bg-dark">Dark</span>
+                    <br/>
+                    <span class="badge bg-warning rounded-pill">Warning</span>
+                    <span class="badge bg-success rounded-pill">Success</span>
+                    <span class="badge bg-dark rounded-pill">Dark</span>
+                    <span class="badge bg-primary rounded-pill">Primary</span>
+                    <span class="badge bg-secondary rounded-pill">Secondary</span>
+
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-success">Message
+                    <span class="badge bg-danger">13</span></button>
+                </div>
+                <div>
+                    <h1>This is a Heading. <span class="badge rounded-pill bg-success">New</span></h1>
+                    <h3>This is a Heading. <span class="badge bg-danger">New</span></h3>
+                    <h5>This is a Heading. <span class="badge bg-warning">New</span></h5>
+                </div>
+
+            </div>
+        </div>
+        <br/>
+
+       <div class="container">
+          <div class="row">
+            <div class="col-md-8 border-0">
+
+             <div id="myAccordion" class="accordion">
+
+              <div class="card">
+                <div class="card-header">
+                  <a href="#cardOne" data-bs-toggle="collapse">Content One</a>
+<!--                    <button data-bs-target="#cardOne" data-bs-toggle="collapse">Content One</button>-->
+                </div>
+                <div id="cardOne" class="collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus impedit praesentium quae quidem quis recusandae sapiente sequi tenetur? Amet aspernatur blanditiis consequatur debitis delectus eum excepturi nam rerum sint suscipit!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam cumque doloribus dolorum eos fugiat, fugit, illum in laborum libero minima nam nostrum quasi quidem repudiandae similique, temporibus velit!</p>
+                    </div>
+                </div>
+
+              </div>
+
+              <div class="card">
+                  <div class="card-header">
+                     <a href="#cardTwo" data-bs-toggle="collapse">Content Two</a>
+                  </div>
+                  <div id="cardTwo" class="collapse" data-bs-parent="#myAccordion">
+                      <div class="card-body">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus impedit praesentium quae quidem quis recusandae sapiente sequi tenetur? Amet aspernatur blanditiis consequatur debitis delectus eum excepturi nam rerum sint suscipit!</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam cumque doloribus dolorum eos fugiat, fugit, illum in laborum libero minima nam nostrum quasi quidem repudiandae similique, temporibus velit!</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="card">
+                    <div class="card-header">
+                        <a href="#cardThree" data-bs-toggle="collapse">Content Three</a>
+                    </div>
+                    <div id="cardThree" class="collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus impedit praesentium quae quidem quis recusandae sapiente sequi tenetur? Amet aspernatur blanditiis consequatur debitis delectus eum excepturi nam rerum sint suscipit!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam cumque doloribus dolorum eos fugiat, fugit, illum in laborum libero minima nam nostrum quasi quidem repudiandae similique, temporibus velit!</p>
+                        </div>
+                    </div>
+              </div>
+
+             </div>
+
+            </div>
+
+              <div class="col-md-4 border-0">
+
+                  <div id="newAccordion" class="accordion">
+
+                      <div class="card">
+                          <div class="card-header">
+                              <a href="#card1" data-bs-toggle="collapse">Sidebar Menu 1</a>
+                              <!--                    <button data-bs-target="#cardOne" data-bs-toggle="collapse">Content One</button>-->
+                          </div>
+                          <div id="card1" class="collapse" data-bs-parent="#newAccordion">
+
+                              <ul class="list-group list-group-flush">
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                              </ul>
+
+                          </div>
+                      </div>
+
+                      <div class="card">
+                          <div class="card-header">
+                              <a href="#card2" data-bs-toggle="collapse">Sidebar Menu 2</a>
+                          </div>
+                          <div id="card2" class="collapse" data-bs-parent="#newAccordion">
+                              <ul class="list-group list-group-flush">
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                              </ul>
+                          </div>
+                      </div>
+
+                      <div class="card">
+                          <div class="card-header">
+                              <a href="#card3" data-bs-toggle="collapse">Sidebar Menu 3</a>
+                          </div>
+                          <div id="card3" class="collapse" data-bs-parent="#newAccordion">
+                              <ul class="list-group list-group-flush">
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                                  <li class="list-group-item"><a href="">Link One</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+       </div>
+
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        This is a Modal Demo
+<!--                        <button type="button" data-bs-dismiss="modal" class="close">X</button>-->
+                    </div> <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at consectetur, consequatur deleniti deserunt distinctio doloremque eius, eligendi esse nemo nihil nisi quam quibusdam quod rem repudiandae suscipit! Quia, vel?</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at consectetur, consequatur deleniti deserunt distinctio doloremque eius, eligendi esse nemo nihil nisi quam quibusdam quod rem repudiandae suscipit! Quia, vel?</p>
+                </div>
+                    <div class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>
